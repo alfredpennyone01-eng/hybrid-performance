@@ -206,12 +206,12 @@ html.dark .toggle-label-dark  { display: none; }
   transition: background-color 0.2s;
 }
 .nav-mobile.open { display: flex; }
-.nav-mobile a {
+.nav-mobile > a {
   font-family: var(--font-display); font-size: var(--text-2xl); font-weight: 700;
   color: var(--text-faint); transition: color var(--duration-fast);
   padding: var(--space-4) 0; border-bottom: 1px solid var(--border);
 }
-.nav-mobile a:hover { color: var(--text-primary); }
+.nav-mobile > a:hover { color: var(--text-primary); }
 
 .nav-mobile-bottom {
   padding-top: var(--space-6);
