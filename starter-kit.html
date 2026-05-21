@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Starter Kit — Hybrid Performance</title>
+  <meta name="description" content="Get the Hybrid Athlete Starter Kit free. Core metrics to track, a sample weekly structure, and two training principles that change how you plan your week.">
+  <link rel="canonical" href="https://hybridperformance.co/starter-kit.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=PT+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>if(localStorage.getItem('hp-color-mode')==='dark')document.documentElement.classList.add('dark');</script>
+  <style>
+    .kit-items {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background-color: var(--border);
+      border: 1px solid var(--border);
+      width: 100%;
+      max-width: 680px;
+      text-align: left;
+    }
+    .kit-item {
+      background-color: var(--bg-primary);
+      padding: var(--space-6);
+      transition: background-color 0.2s;
+    }
+    .kit-item-number {
+      font-family: var(--font-display);
+      font-size: var(--text-3xl);
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: var(--space-3);
+    }
+    .kit-item-label {
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-faint);
+      line-height: 1.5;
+    }
+    @media (max-width: 560px) {
+      .kit-items { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="starterkit-page">
+
+    <div class="starterkit-inner">
+      <span class="hero-label fade-in">Free Resource</span>
+      <h1 class="fade-in fade-in-delay-1">Start Here.<br>It's Free.</h1>
+      <p class="fade-in fade-in-delay-2">Get the Hybrid Athlete Starter Kit — a free breakdown of the core metrics every hybrid athlete should track, a sample weekly structure, and two training principles that change how you plan your week.</p>
+      <form class="lead-form fade-in fade-in-delay-3" novalidate style="justify-content:center;">
+        <input type="email" placeholder="your@email.com" required aria-label="Email address">
+        <button type="submit" class="btn btn-primary">Send me the Starter Kit</button>
+      </form>
+      <p class="fine-print fade-in">No spam. Unsubscribe anytime.</p>
+    </div>
+
+    <div class="fade-in" style="display:flex; flex-direction:column; align-items:center; gap:var(--space-6);">
+      <p style="font-family:var(--font-display); font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--text-faint);">What's inside</p>
+      <div class="kit-items">
+        <div class="kit-item">
+          <div class="kit-item-number">01</div>
+          <div class="kit-item-label">Core metrics every hybrid athlete should track</div>
+        </div>
+        <div class="kit-item">
+          <div class="kit-item-number">02</div>
+          <div class="kit-item-label">A sample weekly training structure</div>
+        </div>
+        <div class="kit-item">
+          <div class="kit-item-number">03</div>
+          <div class="kit-item-label">Two principles that change how you plan your week</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer style="border-top:1px solid var(--border); padding:var(--space-6) 0; text-align:center; background-color:var(--bg-primary); transition: background-color 0.2s, border-color 0.2s;">
+    <p style="font-family:var(--font-display); font-size:11px; color:var(--text-faint);">
+      © 2025 Hybrid Performance. Built for athletes who train both.&nbsp;·&nbsp;
+      <a href="index.html" style="color:var(--text-faint); text-decoration:underline; text-underline-offset:3px;">Back to site</a>
+    </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
